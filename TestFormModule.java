@@ -29,6 +29,6 @@ public class TestFormModule {
 		driver.findElement(By.id("satisfaction")).sendKeys("4");
 		driver.findElement(By.id("appt")).sendKeys("14:12");
 		driver.findElement(By.xpath("/html/body/form/input[15]")).sendKeys("https://www.google.com/");
-		//driver.findElement(By.xpath("/html/body/form/input[16]")).click();
+		driver.findElement(By.xpath("/html/body/form/input[16]")).click();
 		}
 }
